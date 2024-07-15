@@ -28,7 +28,7 @@ export class LinkedList {
       return 0;
     }
 
-    let lenght = 1;
+    let length = 1;
     let node = this.head;
     while (node.next) {
       length++;
